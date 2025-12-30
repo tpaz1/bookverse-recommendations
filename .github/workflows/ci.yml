@@ -241,7 +241,7 @@ jobs:
       # Configures secure OIDC authentication for publishing recommendation
       # algorithms, ML models, and associated artifacts to JFrog Platform
       - name: "[Setup] JFrog CLI"
-        uses: EyalDelarea/setup-jfrog-cli@swampUpAppTrust
+        uses: jfrog/setup-jfrog-cli@v4
         id: jfrog-cli-auth
         with:
           oidc-provider-name: bookverse-recommendations-github  # ML service-specific OIDC provider
@@ -738,7 +738,7 @@ jobs:
           path: bookverse-infra
 
       - name: "[Setup] JFrog CLI"
-        uses: EyalDelarea/setup-jfrog-cli@swampUpAppTrust
+        uses: jfrog/setup-jfrog-cli@v4
         id: jfrog-cli-auth
         with:
           oidc-provider-name: bookverse-recommendations-github
