@@ -197,3 +197,4 @@ BookVerse consists of seven integrated components that work together to deliver 
 > - [Web Application](https://github.com/tpaz1/bookverse-web)
 > - [Helm Charts](https://github.com/tpaz1/bookverse-helm)
 # Demo update Tue Dec 30 14:35:19 IST 2025
+# Demo update Tue Dec 30 16:10:03 IST 2025
