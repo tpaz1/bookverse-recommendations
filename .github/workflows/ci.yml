@@ -246,6 +246,7 @@ jobs:
         with:
           oidc-provider-name: bookverse-recommendations-github  # ML service-specific OIDC provider
           oidc-audience: ${{ vars.JFROG_URL }}                  # JFrog Platform audience validation
+          version: 2.86.0
         env:
           JF_URL: ${{ vars.JFROG_URL }}        # JFrog Platform URL for ML artifact storage
           JF_PROJECT: ${{ vars.PROJECT_KEY }} # BookVerse project context for ML assets
@@ -743,6 +744,7 @@ jobs:
         with:
           oidc-provider-name: bookverse-recommendations-github
           oidc-audience: ${{ vars.JFROG_URL }}
+          version: 2.86.0
         env:
           JF_URL: ${{ vars.JFROG_URL }}
           JF_PROJECT: ${{ vars.PROJECT_KEY }}
